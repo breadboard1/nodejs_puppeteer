@@ -31,6 +31,7 @@ Additional tools will be added over time to enhance functionality.
     $ cd nodejs_puppeteer
 
 2. Install dependencies:
+    ```bash
     $ npm install
 
 3. Ensure you have a stable internet connection (required for Puppeteer to fetch and render web pages).
@@ -39,9 +40,10 @@ Additional tools will be added over time to enhance functionality.
 
 1. Navigate to the desired tool directory.
 2. Run the tool using Node.js:
+    ```bash
     $ node tool_name.js
-1. Follow the instructions displayed in the terminal.
-2. Scraped data will be saved to the output/ directory as a CSV file (or any configured location).
+3. Follow the instructions displayed in the terminal.
+4. Scraped data will be saved to the output/ directory as a CSV file (or any configured location).
 
 
 # Dependencies
@@ -50,7 +52,7 @@ The following npm packages are used in this project:
 - Puppeteer: Headless browser for web scraping.
 - dotenv: Manage environment variables.
 - csv-writer: Export data to CSV files.
-
+    ```bash
     $ npm install puppeteer dotenv csv-writer node-fetch
 
 # Ethical Use Policy
