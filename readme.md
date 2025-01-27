@@ -11,14 +11,11 @@ This repository showcases web scraping projects built with Node.js and Puppeteer
 These tools are for educational purposes only. Use them responsibly and ensure compliance with the terms of service of the websites you interact with. Unauthorized scraping may violate laws and site policies.
 Tools in the Repository
 1. Basic Web Scraper
-
-A simple scraper to extract information (like text, images, or links) from websites.
+    A simple scraper to extract information (like text, images, or links) from websites.
 2. Bypassing reCAPTCHA
-
-Demonstrates strategies to bypass CAPTCHA mechanisms, such as using third-party CAPTCHA-solving APIs (e.g., 2Captcha or Anti-Captcha).
+    Demonstrates strategies to bypass CAPTCHA mechanisms, such as using third-party CAPTCHA-solving APIs (e.g., 2Captcha or Anti-Captcha).
 3. Data Export to CSV
-
-Scrapes data and saves it in a structured CSV format, making it easy to analyze and visualize.
+    Scrapes data and saves it in a structured CSV format, making it easy to analyze and visualize.
 4. (More to Come...)
 
 Additional tools will be added over time to enhance functionality.
@@ -33,7 +30,7 @@ Additional tools will be added over time to enhance functionality.
     - cd nodejs_puppeteer
 
 2. Install dependencies:
-    npm install
+    - npm install
 
 3. Ensure you have a stable internet connection (required for Puppeteer to fetch and render web pages).
 
@@ -41,8 +38,7 @@ Additional tools will be added over time to enhance functionality.
 
 1. Navigate to the desired tool directory.
 2. Run the tool using Node.js:
-    node tool_name.js
-
+    - node tool_name.js
 3. Follow the instructions displayed in the terminal.
 4. Scraped data will be saved to the output/ directory as a CSV file (or any configured location).
 
@@ -54,7 +50,7 @@ The following npm packages are used in this project:
 - dotenv: Manage environment variables.
 - csv-writer: Export data to CSV files.
 
-npm install puppeteer dotenv csv-writer node-fetch
+    - npm install puppeteer dotenv csv-writer node-fetch
 
 # Ethical Use Policy
 
