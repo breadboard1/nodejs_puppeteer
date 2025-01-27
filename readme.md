@@ -57,8 +57,7 @@ The following npm packages are used in this project:
 
 # Ethical Use Policy
 
-# By using this repository, you agree to:
-
+By using this repository, you agree to:
     Only scrape websites you own or have explicit permission to scrape.
     Comply with the terms of service of the websites you interact with.
     Never use these tools for malicious purposes.
