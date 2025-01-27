@@ -26,19 +26,20 @@ Additional tools will be added over time to enhance functionality.
 
 # Installation
 1. Clone the repository:
-    -git clone https://github.com/breadboard1/nodejs_puppeteer.git
-    -cd nodejs_puppeteer
+    ```bash
+    $ git clone https://github.com/breadboard1/nodejs_puppeteer.git
+    $ cd nodejs_puppeteer
 
-1. Install dependencies:
-    -npm install
+2. Install dependencies:
+    $ npm install
 
-2. Ensure you have a stable internet connection (required for Puppeteer to fetch and render web pages).
+3. Ensure you have a stable internet connection (required for Puppeteer to fetch and render web pages).
 
 # How to Use
 
 1. Navigate to the desired tool directory.
 2. Run the tool using Node.js:
-    -node tool_name.js
+    $ node tool_name.js
 1. Follow the instructions displayed in the terminal.
 2. Scraped data will be saved to the output/ directory as a CSV file (or any configured location).
 
@@ -50,7 +51,7 @@ The following npm packages are used in this project:
 - dotenv: Manage environment variables.
 - csv-writer: Export data to CSV files.
 
-    -npm install puppeteer dotenv csv-writer node-fetch
+    $ npm install puppeteer dotenv csv-writer node-fetch
 
 # Ethical Use Policy
 
